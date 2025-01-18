@@ -1,0 +1,3 @@
+# Tailwind CSS Missing Styles Import
+
+This repository demonstrates a common error in Tailwind CSS: forgetting to import the styles into a component.  The `bug.js` file shows the incorrect implementation and `bugSolution.js` shows the correct implementation.  This simple mistake causes Tailwind classes to not be applied. The bug is that the component is missing the import statement that brings in Tailwind's stylesheet causing classes to not be applied.
